@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoggingXml>
+    <LoggingConfig redirectStd="true">
+    	<Logger name="STDOUT" fileName="stdout" fileSize="40000" fileCount="2" level="3"/>
+        <Logger name="CRITICAL" fileName="critical" parent="true" fileSize="1000000" fileCount="10" level="3"/>
+        <Logger name="STDERR" fileName="stderr" fileSize="200000" fileCount="3" level="3"/>
+        <Logger name="APPS" fileName="apps" parent="true" fileSize="1000000" fileCount="10" level="3"/>
+        <Logger name="DA" fileName="da" parent="true" fileSize="1000000" fileCount="10" level="3"/>
+        <Logger name="KUBERNETES" fileName="kubernetes" parent="true" fileSize="1000000" fileCount="10" level="3"/>
+    </LoggingConfig>
+</LoggingXml>

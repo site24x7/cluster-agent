@@ -1,0 +1,14 @@
+six
+cffi
+futures
+psutil
+urllib3==1.26.6
+prometheus_client
+dateparser
+pycrypto
+pkcs7
+ifcfg
+flask
+gunicorn
+gevent
+requests
